@@ -1,0 +1,12 @@
+test_list = [4, 5, 6, 3, 9] 
+insert_list = [2, 3] 
+  
+pos = 2
+  
+print ("The original list is : " + str(test_list)) 
+  
+print ("The list to be inserted is : " + str(insert_list)) 
+  
+test_list[pos:pos] = insert_list 
+  
+print ("The list after insertion is : " +  str(test_list))
